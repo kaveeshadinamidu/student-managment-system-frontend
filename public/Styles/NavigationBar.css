@@ -1,0 +1,43 @@
+.navigation-Bar{
+    height: 10vh;
+    padding-left: 2vw;
+    padding-right: 3%;
+    padding-top: 1%;
+    background-color: #1c2229;
+    
+  }
+  
+  .university-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 1vw;
+  }
+  
+  .user-name{
+    margin-top: 0.5vh;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+  
+  .navbar-name, .university-name{
+    color: #fff;
+  }
+  
+  .dropdown-box{
+    background-color: #343b44;
+    text-align: center;
+  }
+  
+  .drop-item{
+    color: #fff;
+  }
+  .home{
+    margin-top: 0.5vh;
+    color: #fff;
+    margin-right: 2vw;
+    font-size: 1.3rem;
+  }
+
+  .navbar-item:hover{
+      color:black;
+  }

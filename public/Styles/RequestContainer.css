@@ -1,0 +1,93 @@
+.request-column{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color : #272f35;
+} 
+.super-user{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color : #272f35;
+} 
+
+.request-box{
+    width: 20vw;
+    height: 25vh;
+    font-size: 4vh;
+    border-radius: 10px;
+    background-color: #343b44;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .request-box-hover{
+    width: 20vw;
+    height: 25vh;
+    font-size: 4vh;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #1e212d;
+    animation-timing-function: ease;
+    animation-name: box-enlarge;
+    animation-duration: 0.5s;
+    width: 21vw;
+    height: 26vh;
+    font-size: 5vh;
+  }
+
+  @keyframes box-enlarge{
+    0% {
+      width: 20vw;
+      height: 25vh;
+      font-size: 4vh;
+    }
+    100% {
+      font-size: 5vh;
+      width: 21vw;
+      height: 26vh;
+    }
+  }
+
+  @keyframes box-line-enlarge{
+    0% {
+      width: 10vw;
+      height: 2vh;
+      
+    }
+    100% {
+      
+      width: 20vw;
+      height: 2vh;
+    }
+  }
+  .request-box-line-enlarge{
+    width: 10vw;
+    height: 2vh;
+    position: absolute;
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-left: 3%;
+    animation-timing-function: ease;
+    animation-name: box-line-enlarge;
+    animation-duration: 0.5s;
+    width: 20vw;
+    height: 2vh;
+  }
+
+  .request-box-line{
+    width: 10vw;
+    height: 2vh;
+    position: absolute;
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-left: 3%;
+    
+  }
+  .request-title{
+    color: #fff;
+    margin-left: 3%;
+    position: absolute;
+    margin-top: 12%;
+    
+  }
+  

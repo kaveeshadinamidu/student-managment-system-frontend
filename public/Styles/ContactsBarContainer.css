@@ -1,0 +1,77 @@
+.contact-column{
+    padding-top: 10vh;
+    background-color : #272f35;
+   
+    
+  }
+  .search-input{
+    font-size: 2vh;
+    margin-top: 4vh;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    
+    outline: white;
+  }  
+
+  .contact-card{
+    background-color: #4a515c;
+    width: 20vw;
+    margin-left: 1vw;
+    height: 10vh;
+    margin-top: 1vh;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+  .contact-card:hover{
+    animation-timing-function: ease;
+    animation-name: contact-box-enlarge;
+    animation-duration: 0.5s;
+    width: 21vw;
+    height: 14vh;
+    font-size: 1.5rem;
+  }
+  @keyframes contact-box-enlarge{
+    0% {
+      width: 20vw;
+      height: 10vh;
+      font-size: 1.2rem;
+    }
+    100% {
+      
+      width: 21vw;
+      height: 14vh;
+      font-size: 1.5rem;
+    }
+  }
+  
+  .contact-card-name{
+    position: absolute;
+    color: #fff;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    
+  }
+  .contact-card-buttons{
+    opacity: 0;
+    animation-timing-function: ease;
+    animation-name: contact-card-buttons-animation;
+    animation-duration: 0.75s;
+    position: absolute;
+    margin-top: 7vh;
+    opacity: 1;
+    
+  }
+  @keyframes contact-card-buttons-animation{
+    
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .contact-card-button{
+    margin-left: 10px;
+  }

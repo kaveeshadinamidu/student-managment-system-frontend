@@ -1,0 +1,146 @@
+html,
+
+h1{
+  font-size: 0.9rem;
+}
+.text-signIn{
+  color: #fff;
+}
+
+
+.login-interface{
+  
+  height: 100vh;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 40px;
+  background-color: #1c2229;
+}
+
+
+.wrong-input{
+  color:red;
+}
+.form-in{
+
+  text-align: center;
+}
+.form-signin {
+  width: 25%;
+  height: 80%;
+
+  border-radius: 15px;
+
+  padding: 5%;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border: none;
+  outline: white;
+}
+.top{
+  margin-bottom:1px;
+  border-bottom-right-radius: 0;
+
+  border-bottom-left-radius: 0;
+
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border: none;
+  outline: white;
+}
+
+
+.forgot-password{
+  text-align: right;
+  margin-top: 7px;
+
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border: none;
+  outline: white;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+
+
+
+
+/* Body Styles */
+.container{
+  margin: 0;
+  padding: 0;
+}
+
+ 
+
+
+
+
+
+
+
+.main-title{
+  margin-top: 8vh;
+  color: #fff;
+  font-size: 5vh;
+}
+.main-image{
+  margin-top: -5vh;
+}
+
+
+.secondary-title{
+  margin-top: 2vh;
+  margin-left: 1vw;
+  color: #fff;
+  font-size: 3vh;
+}
+.contacts-title{
+  color: #fff;
+  font-size: 4vh;
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
